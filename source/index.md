@@ -10,13 +10,30 @@ toc_footers:
 
 includes:
   - introduction
-  - authentication
-  - components
-  - sites
-  - clients
-  - dataavailable
-  - data
-  - events
+
+  - authentication/authentication
+  - authentication/client-credentials
+
+  - components/components
+  - components/get-component
+  - components/get-site-components
+  - components/get-client-components
+  - components/get-partner-components
+
+  - sites/sites
+  - sites/get-site
+  - sites/get-client-sites
+  - sites/get-partner-sites
+
+  - clients/clients
+  - clients/get-client
+  - clients/get-partner-clients
+
+  - dataavailable/dataavailable
+  - dataavailable/get-site-dataavailable
+
+  - data/data
+  - data/get-site-data
 
 search: true
 ---
