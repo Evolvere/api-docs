@@ -1,4 +1,19 @@
-Slate
+Running the Locus Energy API Documentation Locally
+==================================================
+
+The Locus API documentation is written using Slate.  These instructions get you setup with the documentation on your local machine.
+
+### Setup
+1. `git clone https://github.com/LocusEnergy/api-docs.git` in your repositories directory (**Projects** for most of us)
+2. `sudo apt-get install bundler`
+3. `bundle install`
+
+### Run
+1. `bundle exec middleman server` in the `api-docs` directory
+2. In your browser navigate to [http://localhost:4567](http://localhost:4567)
+
+
+General Slate Documentation
 ========
 
 [![Build Status](https://travis-ci.org/tripit/slate.svg?branch=master)](https://travis-ci.org/tripit/slate) [![Dependency Status](https://gemnasium.com/tripit/slate.png)](https://gemnasium.com/tripit/slate)
