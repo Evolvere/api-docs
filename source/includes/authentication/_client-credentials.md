@@ -1,4 +1,4 @@
-## Client Credentials flow
+## Client Credentials
 
 > Example request:
 
