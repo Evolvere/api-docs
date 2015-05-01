@@ -16,6 +16,6 @@
 Attribute | Type| Description | Always returned?
 ---|---|---|---
 id | Integer | Corresponds to the entity ID for which this data was requested | yes
-ts | String (datetimestamp) | Datetimestamp for this data point | yes
+ts | String (YYYY-MM-DDThh:mm:ssZ) | Datetimestamp for this data point | yes
 
 For each `data` object, any non-null data is returned with the field name. In this example, `W_avg` and `Wh_sum` were requested.
