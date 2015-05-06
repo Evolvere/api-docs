@@ -1,6 +1,6 @@
 ## Getting started
 
-Before you begin, you should already have the items below. If you don't, please get in touch with [our support team](mailto:support@locusenergy.com).
+Before you begin, you should already have the items below. If you don't, please get in touch with your Locus Energy account manager.
 
 - API credentials. This includes a `client_id` and `client_secret`.
 - Your partner ID

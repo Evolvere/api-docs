@@ -21,9 +21,9 @@ includes:
   - workflows/get-lifetime-energy-component
 
   - authentication/authentication
-  - authentication/client-credentials
   - authentication/resource-owner-password
   - authentication/refresh-token
+  - authentication/client-credentials
 
   - components/components
   - components/get-component
