@@ -14,7 +14,6 @@ includes:
   - overview/getting-started
   - overview/errors
   - overview/rate-limiting
-  - overview/data-calls
 
   - workflows/workflows
   - workflows/get-data-component
