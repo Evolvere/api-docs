@@ -3,7 +3,7 @@
 > Example request:
 
 ```http
-POST https://api.locusenergy.com/oauth/tokens HTTP/1.1
+POST https://api.locusenergy.com/oauth/token HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 grant_type=password&client_id=CLIENT_ID&client_secret=CLIENT_SECRET&username=USERNAME&password=PASSWORD
 ```
@@ -35,13 +35,13 @@ The API uses the [OAuth 2 Resource Owner Password Credentials flow](https://tool
 
 ### Definition
 
-`POST /oauth/tokens`
+`POST /oauth/token`
 
 ### Arguments
 
 Parameter|Required?|Default|Description
 ---|---|---|---
-grant_type|yes||The string "client_credentials". This defines the OAuth 2.0 flow.
+grant_type|yes||The string "password". This defines the OAuth 2.0 flow.
 client_id|yes||The `client_id` for your application. Obtain this from your account manager.
 client_secret|yes||The `client_secret` for your application. Obtain this from your account manager.
 username|yes||The user's SolarOS username.

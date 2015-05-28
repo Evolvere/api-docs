@@ -3,7 +3,7 @@
 > Example request:
 
 ```http
-POST https://api.locusenergy.com/oauth/tokens HTTP/1.1
+POST https://api.locusenergy.com/oauth/token HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 grant_type=client_credentials&client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET
 ```
@@ -33,7 +33,7 @@ For API credentials created before April 30, 2015, the API uses the [OAuth 2 Cli
 
 ### Definition
 
-`POST /oauth/tokens`
+`POST /oauth/token`
 
 ### Arguments
 

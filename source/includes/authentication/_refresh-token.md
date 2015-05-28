@@ -3,7 +3,7 @@
 > Example request:
 
 ```http
-POST https://api.locusenergy.com/oauth/tokens HTTP/1.1
+POST https://api.locusenergy.com/oauth/token HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 grant_type=refresh_token&client_id=CLIENT_ID&client_secret=CLIENT_SECRET&refresh_token=REFRESH_TOKEN
 ```
@@ -33,13 +33,13 @@ The API uses the [OAuth 2 guidelines for refreshing an access token](https://too
 
 ### Definition
 
-`POST /oauth/tokens`
+`POST /oauth/token`
 
 ### Arguments
 
 Parameter|Required?|Default|Description
 ---|---|---|---
-grant_type|yes||The string "client_credentials". This defines the OAuth 2.0 flow.
+grant_type|yes||The string "refresh_token". This defines the OAuth 2.0 flow.
 client_id|yes||The `client_id` for your application. Obtain this from your account manager.
 client_secret|yes||The `client_secret` for your application. Obtain this from your account manager.
 refresh_token|yes||The `refresh_token` from a previously successful authentication attempt.
