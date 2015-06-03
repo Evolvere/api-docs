@@ -24,7 +24,6 @@ curl https://api.locusenergy.com/oauth/token
     "access_token": "41e818b29780637494d9026760d40b51",
     "issued_at": 1430347010,
     "token_type": "bearer",
-    "refresh_token": "c27720f61b77245731c2e3ce4647ddad",
     "expires_in": 3600
 }
 ```

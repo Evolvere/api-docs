@@ -24,4 +24,4 @@ access_token | String | Randomly generated string to serve as authentication tok
 issued_at | Integer | Unix timestamp for when `access_token` was issued | yes
 expires_in | Integer | Seconds until the `access_token` expires | yes
 token_type | String | The type of the token being returned | yes
-refresh_token | String | Randomly generated string. This can be used to obtain more access tokens instead of supplying a username and password | no
+refresh_token | String | Randomly generated string. This can be used to obtain more access tokens instead of supplying a username and password | no. Only returned for password grant type.
