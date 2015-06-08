@@ -3,13 +3,13 @@
 > Example request:
 
 ```http
-GET https://api.locusenergy.com/v3/components/123/data?fields=W_avg,Wh_sum&start=2014-04-01T12:00:00&end=2014-04-01T13:00:00&tz=US/Pacific HTTP/1.1
+GET https://api.locusenergy.com/v3/components/123/data?fields=W_avg,Wh_sum&start=2014-04-01T12:00:00&end=2014-04-01T13:00:00&tz=US/Pacific&gran=hourly HTTP/1.1
 Accept: application/json
 Authorization: Bearer ACCESS_TOKEN
 ```
 
 ```shell
-curl https://api.locusenergy.com/v3/components/123/data?fields=W_avg,Wh_sum&start=2014-04-01T12:00:00&end=2014-04-01T13:00:00&tz=US/Pacific
+curl https://api.locusenergy.com/v3/components/123/data?fields=W_avg,Wh_sum&start=2014-04-01T12:00:00&end=2014-04-01T13:00:00&tz=US/Pacific&gran=hourly
   -X GET
   -H "Accept: application/json"
   -H "Authorization: Bearer ACCESS_TOKEN"
@@ -48,10 +48,11 @@ This endpoint retrieves data for the component, fields and time period requested
 Argument | Description | Required? | Default
 --- | --- | --- | ---
 componentId | Unique identifier for the component | yes |
-fields | Comma-delimited list of valid [shortNames](#aggregations) | yes
-start | Timestamp of start period of request | yes
-end | Timestamp of end period of request | yes
-tz | Timezone for data requested | yes
+fields | Comma-delimited list of valid [shortNames](#aggregations) | yes |
+start | Timestamp of start period of request | yes |
+end | Timestamp of end period of request | yes |
+tz | Timezone for data requested | yes |
+gran | Granularity for data requested. Options are 5min, 15min, hourly, daily, monthly, yearly | yes |
 
 ### Returns
 
