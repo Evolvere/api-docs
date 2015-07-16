@@ -11,3 +11,5 @@ The API provides programmatic access to much of the data found in SolarOS. It de
 - **Components:** a component represents a physical device installed on the site. A site can have multiple child components, and components can have multiple children components. A component also is associated with timeseries data.
 
 Data is returned in [JSON](http://en.wikipedia.org/wiki/JSON).
+
+The source of this documentation is [available publicly on Github](https://github.com/LocusEnergy/api-docs). Feel free to contribute by submitting a pull request or [logging an issue](https://github.com/LocusEnergy/api-docs/issues/new).

@@ -6,7 +6,8 @@ language_tabs:
   - shell
 
 toc_footers:
-  - <a href='http://github.com/tripit/slate'>Documentation Powered by Slate</a>
+  - <a href='https://github.com/LocusEnergy/api-docs' target='_blank'>Contribute to this documentation</a>
+  - <a href='http://github.com/tripit/slate' target='_blank'>Documentation Powered by Slate</a>
 
 includes:
   - overview/overview
