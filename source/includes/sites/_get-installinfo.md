@@ -47,7 +47,9 @@ Returns a site installinfo object.
 Attribute | Type| Description | Always returned?
 ---|---|---|---
 installer | String | Installer of the site | no
+installCrew | String | Install crew of the site | no
 installDate | String (yyyy-mm-dd) | Install date of the site | no
 ptoDate | String (yyyy-mm-dd) | Permission to operate date of the site | no
 startupDate | String (yyyy-mm-dd) | Startup date of the site | no
+uninstallCrew | String | Uninstall crew of the site | no
 uninstallDate | String (yyyy-mm-dd) | Uninstall date of the site | no

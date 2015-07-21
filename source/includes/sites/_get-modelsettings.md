@@ -60,4 +60,4 @@ sunTracking | Integer | PV model parameter | yes
 nameplate | Integer | PV model parameter | yes
 acWiring | Integer | PV model parameter | yes
 transformer | Integer | PV model parameter | yes
-tmy3Id | Integer | PV model parameter | yes
+tmy3Id | Integer | PV model parameter | no

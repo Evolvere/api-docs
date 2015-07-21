@@ -37,3 +37,5 @@ generationType | String | Type of generation. Options are: SOLAR, WIND, THERMAL,
 oem | String | Original Equipment Manufacturer of the component | yes
 model | String | Model name of the component | yes
 isConceptualNode | boolean | Conceptual means non-monitored. If this component actually collects data, it is not conceptual. | yes
+serialNumber | String | Text field for serial number | no
+description | String | Text field for description | no
