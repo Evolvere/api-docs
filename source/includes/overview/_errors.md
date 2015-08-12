@@ -8,6 +8,8 @@ Locus Energy uses [conventional HTTP response codes](http://en.wikipedia.org/wik
 
 **401 Unauthorized:** Authentication failed. Check that your authentication credentials are correct.
 
+**403 Forbidden:** The request you are making is valid, but you do not have permissions to access the entity requested.
+
 **404 Not Found:** The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible.
 
 **429 Too Many Requests:** The user has sent too many requests in a given amount of time. See information regarding [rate limiting](#rate-limiting).
