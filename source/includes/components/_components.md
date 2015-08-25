@@ -16,7 +16,9 @@
   "generationType": "SOLAR",
   "oem": "Locus Energy",
   "model": "LGate 120",
-  "isConceptualNode": false
+  "isConceptualNode": false,
+  "serialNumber": "ABC123",
+  "description": "This is a revenue grade meter"
 }
 ```
 
