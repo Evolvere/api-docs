@@ -55,7 +55,7 @@ This endpoint retrieves sites for a partner.
 
 ### Definition
 
-`GET /v3/partners/{partnerId}`
+`GET /v3/partners/{partnerId}/sites`
 
 ### Arguments
 
